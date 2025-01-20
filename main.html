@@ -46,6 +46,7 @@
       color: #fff;
       border: none;
       cursor: pointer;
+      padding: 10px;
     }
     button:hover {
       background-color: #0056b3;
@@ -54,7 +55,7 @@
 </head>
 <body>
   <h1>Dog Adoption Application</h1>
-  <form action="/submit-application" method="post">
+  <form action="https://httpbin.org/post" method="post" target="_blank">
     <!-- Name Field -->
     <label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Name" required>
@@ -88,4 +89,3 @@
   </form>
 </body>
 </html>
-
